@@ -1,0 +1,1 @@
+web gunicorn etrgovina.wsgi --log-file -
