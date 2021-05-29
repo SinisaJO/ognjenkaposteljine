@@ -143,7 +143,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 ## Forec redirect to https
 
-if os.getcwd() == '/app' :
-    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-    SECURE_SSL_REDIRECT = True
-    DEBUG = False 
+#if os.getcwd() == '/app' :
+#    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+#    SECURE_SSL_REDIRECT = True
+#    DEBUG = False 
