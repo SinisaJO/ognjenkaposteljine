@@ -153,7 +153,15 @@ header {
 
 .container--narrow {
     max-width: 34rem;
-    margin-top: 6em;
+    margin-top: 1em;
+}
+
+@media (min-width: 40em) {
+    .container--narrow {
+        max-width: 34rem;
+        margin-top: 6em;
+    }
+    
 }
 
 .bg-light {
